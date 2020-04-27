@@ -40,7 +40,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Dhruv Mahajan <Link to="/">dmahajan.com</Link>.</p>
+      <p className="copyright">&copy; Dhruv Mahajan <Link to="/">dhruv-mahajan.ca</Link>.</p>
     </section>
   </section>
 );
