@@ -1,6 +1,6 @@
 {
-  "name": "dhruv-mahajan.ca",
-  "homepage": "https://github.com/dhruv1754/personal-site",
+  "name": "personal-website",
+  "homepage": "http://github.com/dhruv1754/personal-website",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -11,8 +11,9 @@
     "test": "./node_modules/mocha/bin/mocha --exit --require @babel/register ./test/test.js",
     "dev": "nodemon server/server.js --ignore app/ --ignore test/ --exec babel-node",
     "parse-routes": "node -r @babel/register parseRoutes.js",
-    "predeploy": "npm run build && cp -r public/* dist/ && cp dist/index.html dist/404.html && npm run parse-routes",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "nodemon server/server.js --ignore app/ --ignore test/ --exec babel-node"
   },
   "dependencies": {
     "@babel/cli": "^7.5.5",
@@ -27,7 +28,7 @@
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "@babel/register": "^7.5.5",
+    "@babel/register": "^7.9.0",
     "@babel/runtime": "^7.5.5",
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
