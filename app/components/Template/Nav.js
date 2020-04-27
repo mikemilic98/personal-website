@@ -10,7 +10,7 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
+        <img src='https://drive.google.com/uc?export=view&id=1_DgSe0JmsL_Hxd6aaEOy-cO0aZgPreDe' alt="" />
       </Link>
       <header>
         <h2>Dhruv Mahajan</h2>
