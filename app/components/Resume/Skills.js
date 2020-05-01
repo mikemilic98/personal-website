@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
+import SkillTile from './Skills/SkillTile';
+import { Divider } from 'antd';
 
 const handleProps = ({ categories, skills }) => ({
   buttons: categories.map((cat) => cat.name).reduce((obj, key) => ({
@@ -41,11 +43,14 @@ class Skills extends Component {
       return ret;
     }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
       .map((skill) => (
-        <SkillBar
-          categories={this.props.categories}
-          data={skill}
-          key={skill.title}
-        />
+        <SkillTile
+        label={skill.title}
+        key={skill.title}
+        active={this.state.buttons}
+        categories={this.props.categories}
+        data={skill}
+        key={skill.title}
+      />
       ));
   }
 
@@ -77,16 +82,24 @@ class Skills extends Component {
     return (
       <div className="skills">
         <div className="link-to" id="skills" />
+        <section >
         <div className="title">
           <h3>Skills</h3>
           <p>Note: I think these sections are silly, but everyone seems to have one.</p>
         </div>
+        </section>
+        <section >
         <div className="skill-button-container">
           {this.getButtons()}
         </div>
-        <div className="skill-row-container">
+        </section>
+        <div className="skill-button-container">
+        <ul className="course-list">
           {this.getRows()}
+        </ul>
         </div>
+        
+        
       </div>
     );
   }

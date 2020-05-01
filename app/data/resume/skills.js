@@ -9,9 +9,6 @@ export const categories = [
     name: 'Databases',
     color: '#3896e2',
   }, {
-    name: 'Design',
-    color: '#747fff',
-  }, {
     name: 'Frameworks',
     color: '#64cb7b',
   }, {

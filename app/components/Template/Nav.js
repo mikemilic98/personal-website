@@ -11,6 +11,7 @@ const Nav = () => (
     <section id="intro">
       <Link to="/" className="logo">
         <img src='https://drive.google.com/uc?export=view&id=1_DgSe0JmsL_Hxd6aaEOy-cO0aZgPreDe' alt="" />
+        <img src='https://bigmemes.funnyjunk.com/pictures/Pic+of+falcon+9+take+off_c729c2_6653802.jpg' alt="" />
       </Link>
       <header>
         <h2>Dhruv Mahajan</h2>
