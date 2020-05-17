@@ -5,7 +5,7 @@ const data = [
     subtitle: '2020 5G Rogers Hackathon',
     link: 'https://github.com/Dhruv1754/Rogers_Hackathon_5G',
     image: 'https://drive.google.com/uc?export=view&id=1TAAg41u5egrWvrVDArF2eEXqirEd6Oc7',
-    date: '2015-11-20',
+    date: '2020 April',
     desc: 'Built for a 5G hackathon. '
       + 'The application is a Real time interactive traffic '
       + 'intersection which colects data via LiDar and shows the visualization on a web app. '

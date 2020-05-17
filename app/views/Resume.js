@@ -30,6 +30,9 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link></h2>
+  <h1><button type="button" >
+    <a href='https://drive.google.com/uc?export=download&id=1-G4y5svE-MSXvKOdFzB3jZ973XJcfwvI'>Download Resume</a>
+  </button></h1>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
