@@ -21,13 +21,13 @@
 	.education {
 
 		.title {
-			text-align: center;
+			text-align: left;
 			margin-bottom: 2em;
 		}
 	}
 	.experience {
 		.title {
-			text-align: center;
+			text-align: left;
 		}
 		.job {
 			margin: 1em;
@@ -50,10 +50,10 @@
 	.courses {
 		padding-top: 1.6em;
 		.title {
-			text-align: center;
+			text-align: left;
 		}
 		.course-list {
-			text-align: center;
+			text-align: left;
 
 			h4 {
 				white-space: nowrap;
@@ -64,7 +64,7 @@
 	.skills {
 		margin-top: 2em;
 		.title {
-			text-align: center;
+			text-align: left;
 			p {
 				font-size: 0.9em;
 			}

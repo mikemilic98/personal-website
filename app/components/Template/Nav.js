@@ -11,7 +11,6 @@ const Nav = () => (
     <section id="intro">
       <Link to="/" className="logo">
         <img src='https://drive.google.com/uc?export=view&id=1_DgSe0JmsL_Hxd6aaEOy-cO0aZgPreDe' alt="" />
-        <img src='https://bigmemes.funnyjunk.com/pictures/Pic+of+falcon+9+take+off_c729c2_6653802.jpg' alt="" />
       </Link>
       <header>
         <h2>Dhruv Mahajan</h2>
@@ -21,8 +20,8 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Dhruv. I like designing applications in data and Security.
-            I have been working with data analytics and web app development for 2 years. I am a <a href="https://ubc.ca/">UBC ECE</a> 4th year student and a Software Consultant. 
+      <p>I am a 4th Year <a href="https://ubc.ca/">UBC ECE</a> student and a part-time software consultant. I design data and security applications.
+            I have 2 years hands on experience of data analytics and web app development. My upcomming job profile is in the field of cloud development and security. 
       </p>
       <ul className="actions">
         <li>

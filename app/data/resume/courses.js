@@ -1,14 +1,29 @@
 const courses = [
   {
-    title: 'Convex Optimization',
-    number: 'EE 364a',
-    link: 'http://stanford.edu/class/ee364a/',
-    univerity: 'Stanford',
+    title: 'System Software Engineering',
+    number: 'CPEN 333',
+    link: 'https://www.ece.ubc.ca/course/cpen-333',
+    univerity: 'UBC',
   }, {
-    title: 'Machine Learning',
-    number: 'CS 229',
-    link: 'http://cs229.stanford.edu/',
-    univerity: 'Stanford',
+    title: 'Digital Systems',
+    number: 'CPEN 311',
+    link: '',
+    univerity: 'UBC',
+  }, {
+    title: 'Data Structures and Algorithms',
+    number: 'CPSC 259',
+    link: '',
+    univerity: 'UBC',
+  }, {
+    title: 'Microcomputers',
+    number: 'CPEN 211',
+    link: 'https://www.ece.ubc.ca/course/cpen-211',
+    univerity: 'UBC',
+  }, {
+    title: 'Signals and Systems',
+    number: 'ELEC 221',
+    link: '',
+    univerity: 'UBC',
   }
 ];
 

@@ -6,7 +6,6 @@ const SkillTile = ({ handleClick, active, label }) => (
   
   <button
     className='skillbutton1'
-    
   >
     &#x25cf; {label}
 

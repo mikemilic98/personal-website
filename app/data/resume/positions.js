@@ -1,18 +1,36 @@
 
 const positions = [
   {
-    company: 'Arthena',
-    position: 'Cofounder, C.T.O.',
-    link: 'https://arthena.com',
-    daterange: 'January 2014 - Present',
+    company: 'SI Systems',
+    position: 'Software Contractor',
+    link: 'https://www.sisystems.com/en-ca/',
+    daterange: 'January 2020 - Present',
     points: [
-      'Created a new financial product for private equity investing. Deployed models to predict the valuation of art at auction.',
-      'Lead development team, set development lifecycle, and managed analytics and web products.',
-      'Built production on-line ETL Pipelines on Kubernetes with Pandas, Postgres, and Kubeflow on GCP.',
-      'Solved end-to-end optimization problems with MCMC, Modern Portfolio Theory, GLM, etc. using Pandas, Numpy, Scikit, Theano, PyMC3, and Jupyter.',
-      'YC Alumn. Worked on everything. Built a 16-person team.',
+      'Create data solutions for large enterprise software systems involving data ETL, warehousing, root cause analysis (Python, Azure Cloud Services, SQL, Excel, REST, Docker)',
+      'Corresponded with technical and business teams to provide migration solutions that utilize new technologies for Legacy systems (Microservices, Pyspark etc)',
     ],
-  }
+  },
+  {
+    company: 'Software Developer Co-op',
+    position: 'Translink',
+    link: 'https://translink.ca',
+    daterange: 'September 2019 - December 2019',
+    points: [
+      'Collaborated and Designed an application and microservices to help facilitate the Metro Transit Operations team to validate public transit IOT system increasing operation train validations by 20\% (Python, SQL, Azure data factory, azure functions, pandas, SOAP/REST)',
+      'Built validation system for data tools and BI analytical tools and which helped in validating applications/apis built for software and data teams such as GTFS data validation (Node.js, Azure Functions, Azure Devops, Computer Vision, Python)',
+    ],
+  },
+  {
+    company: 'Telus Partner Solutions',
+    position: 'Business System Information Analyst Co-op',
+    link: 'https://www.telus.com/en/partner/',
+    daterange: 'January 2019 - August 2019',
+    points: [
+      'Created business intelligence dashboards to drive business insights for executive and analyst teams across TELUS Partner Solutions. (Tableau, SQL Server, and Oracle)',
+      'Built a tool to revise and predict company finances improving efficiency by 50\% the finance team for all Telus customers (React, node.js, express and SQL server, Microservices)',
+      'Implemented web automation, testing for internal web apps, data warehousing, and created ETL pipelines for business and technical end-users (Python, Pandas, Numpy, Selenium, Bash, dataflux)',
+    ],
+  },
 ];
 
 export default positions;
