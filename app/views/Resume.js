@@ -29,8 +29,8 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
-  <h1><button type="button" >
+          <h2><Link to="resume">Resume</Link> <button type="button" align="right">sss</button></h2>
+  <h1><button type="button" align="right">
     <a href='https://drive.google.com/uc?export=download&id=1-G4y5svE-MSXvKOdFzB3jZ973XJcfwvI'>Download Resume</a>
   </button></h1>
           <div className="link-container">

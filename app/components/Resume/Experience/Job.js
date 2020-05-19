@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
-      <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
-      <p className="daterange"> {data.daterange}</p>
+      <h4><a href={data.link}>{data.company}</a> - {data.position} <img src={data.image} width="110" height="75" align="right" /> </h4>
+      <p className="daterange"> {data.daterange} </p>
     </header>
     <ul className="points">
       {data.points.map((point) => (
