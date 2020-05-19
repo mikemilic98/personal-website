@@ -1,5 +1,4 @@
 // TODO: How should these be sorted?
-
 // TODO: Add Althetic Skills, Office Skills (?)
 export const categories = [
   {
