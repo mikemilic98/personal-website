@@ -12,8 +12,8 @@ const positions = [
     ],
   },
   {
-    company: 'Software Developer Co-op',
-    position: 'Translink',
+    company: 'Translink',
+    position: 'Software Developer Co-op',
     link: 'https://translink.ca',
     daterange: 'September 2019 - December 2019',
     image: 'https://drive.google.com/uc?export=view&id=1AQtmjcvZViiPw3Wcg3FM4enMC4FNtrxQ',
