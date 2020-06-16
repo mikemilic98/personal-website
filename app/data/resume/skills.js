@@ -2,9 +2,12 @@
 // TODO: Add Althetic Skills, Office Skills (?)
 export const categories = [
   {
-    name: 'Data Science',
+    name: 'Data Pipelines',
     color: '#515dd4',
   }, {
+    name: 'Data Analytics',
+    color: '#515dd4',
+  },{
     name: 'Databases',
     color: '#3896e2',
   }, {
@@ -61,13 +64,8 @@ export const skills = [
     category: ['Web Development', 'Tools'],
   },
   {
-    title: 'Heroku',
-    compentency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
     title: 'MongoDB',
-    compentency: 4,
+    compentency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -83,7 +81,7 @@ export const skills = [
   {
     title: 'Matlab',
     compentency: 2,
-    category: ['Data Science', 'Machine Learning', 'Languages'],
+    category: ['Data Analytics', 'Machine Learning', 'Languages'],
   },
   {
     title: 'Express.JS',
@@ -98,17 +96,17 @@ export const skills = [
   {
     title: 'Data Analysis',
     compentency: 3,
-    category: ['Data Science', 'Machine Learning'],
+    category: ['Data Analytics', 'Machine Learning'],
   },
   {
     title: 'Power BI',
     compentency: 3,
-    category: ['Data Science', 'Machine Learning'],
+    category: ['Data Analytics', 'Machine Learning'],
   },
   {
     title: 'Tableau',
     compentency: 3,
-    category: ['Data Science', 'Machine Learning'],
+    category: ['Data Analytics', 'Machine Learning'],
   },
   {
     title: 'Git',
@@ -123,12 +121,12 @@ export const skills = [
   {
     title: 'Numpy',
     compentency: 3,
-    category: ['Data Science', 'Machine Learning', 'Python'],
+    category: ['Data Analytics', 'Machine Learning', 'Python'],
   },
   {
     title: 'Tensorflow',
     compentency: 4,
-    category: ['Data Science', 'Machine Learning', 'Python'],
+    category: ['Data Analytics', 'Machine Learning', 'Python'],
   },
   {
     title: 'Typescript',
@@ -159,21 +157,21 @@ export const skills = [
   {
     title: 'Visualization',
     compentency: 4,
-    category: ['Data Science', 'Javascript'],
+    category: ['Data Analytics', 'Javascript'],
   },
   {
     title: 'Pandas',
     compentency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Data Analytics', 'Python'],
   },
   {
     title: 'Matplotib',
     compentency: 4,
-    category: ['Data Science', 'Python'],
+    category: ['Data Analytics', 'Python'],
   },
   {
-    title: 'Scikit-Learn',
+    title: 'Kafka',
     compentency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Data Pipelines', 'Python'],
   },
 ];

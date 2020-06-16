@@ -30,7 +30,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2><Link to="resume">Resume</Link><button type="button" style={{ float: 'right' }}>
-            <a href='https://drive.google.com/uc?export=download&id=1-G4y5svE-MSXvKOdFzB3jZ973XJcfwvI'>Download Resume</a>
+            <a href='https://drive.google.com/uc?export=download&id=1dp2HDKTXYXSL3HL7IvR0vXw2nesRq3nR'>Download Resume</a>
           </button></h2>
           <h1></h1>
           <div className="link-container">
