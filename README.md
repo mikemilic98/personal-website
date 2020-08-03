@@ -1,4 +1,4 @@
-# [Sample Running Portfolio Web Application](dhruv-mahajan.ca) 
+# [Sample Running Portfolio Web Application](www.dhruv-mahajan.ca) 
 
 My personal website can be used for future tempelates as required. Built using modern javascript with Node.js, React, Express, React-Router, Hot Module Reloading, Webpack and many other technologies.
 
