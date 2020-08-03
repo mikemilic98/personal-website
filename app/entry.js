@@ -14,8 +14,11 @@ import NotFound from './views/NotFound';
 
 // All of our CSS
 import './static/css/main.scss';
+import Particle from './layouts/Particle';
 
 ReactDOM.render(
+  <React.Fragment>
+    <Particle />
   <Router basename={BASE_PATH}>
     <Switch>
       <Route exact path="/" component={Index} />
@@ -26,6 +29,8 @@ ReactDOM.render(
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>
-  </Router>,
+  </Router>
+  </React.Fragment>
+  ,
   document.getElementById('root'),
 );

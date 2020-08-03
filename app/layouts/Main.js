@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-
+import Particle from './Particle';
 import ReactGA from 'react-ga';
 
 import Header from '../components/Template/Header';
@@ -34,7 +34,8 @@ class Main extends Component {
           {this.props.children}
         </div>
         {!this.props.fullPage && <Nav />}
-      </div>);
+      </div>
+      );
   }
 }
 

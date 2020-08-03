@@ -10,6 +10,7 @@
 		margin-right: _size(section-spacing);
 		min-width: 22em;
 		width: 22em;
+		z-index: 1;
 
 		> * {
 			border-top: solid 1px _palette(border);
