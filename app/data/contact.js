@@ -4,17 +4,17 @@ import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/dhruv1754',
+    link: 'https://github.com/mikemilic98',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://www.linkedin.com/in/mahajan-dhruv/',
+    link: 'https://www.linkedin.com/in/michaelmilic/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:dhruv1754@gmail.com',
+    link: 'mailto:mikemilic98@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },

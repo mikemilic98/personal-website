@@ -1,8 +1,8 @@
 const courses = [
   {
-    title: 'System Software Engineering',
-    number: 'CPEN 333',
-    link: 'https://www.ece.ubc.ca/course/cpen-333',
+    title: 'Building Modern WebApp',
+    number: 'CPEN 400A',
+    link: 'https://www.ece.ubc.ca/course/cpen-400A',
     univerity: 'UBC',
   }, {
     title: 'Digital Systems',
@@ -12,16 +12,6 @@ const courses = [
   }, {
     title: 'Data Structures and Algorithms',
     number: 'CPSC 259',
-    link: '',
-    univerity: 'UBC',
-  }, {
-    title: 'Microcomputers',
-    number: 'CPEN 211',
-    link: 'https://www.ece.ubc.ca/course/cpen-211',
-    univerity: 'UBC',
-  }, {
-    title: 'Signals and Systems',
-    number: 'ELEC 221',
     link: '',
     univerity: 'UBC',
   }

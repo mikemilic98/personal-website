@@ -10,18 +10,17 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src='https://drive.google.com/uc?export=view&id=1_DgSe0JmsL_Hxd6aaEOy-cO0aZgPreDe' alt="" />
+        <img src='/images/me.png' alt="" />
       </Link>
       <header>
-        <h2>Dhruv Mahajan</h2>
-        <p><a href="mailto:dhruv1754@gmail.com">dhruv1754@gmail.com</a></p>
+        <h2>Michael Milic</h2>
+        <p><a href="mailto:mikemilic98@gmail.com">mikemilic98@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>I am a 4th Year <a href="https://ubc.ca/">UBC ECE</a> student and a part-time software consultant. I design data and security applications.
-            I have 2 years hands on experience of data analytics and web app development. My upcomming job profile is in the field of cloud development and security. 
+      <p>I am a Software Developer and DevOps Engineer in my 5th year of school at UBC in the department of Electrical and Computer Engineering 
       </p>
       <ul className="actions">
         <li>
@@ -40,7 +39,6 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Dhruv Mahajan <Link to="/">dhruv-mahajan.ca</Link>.</p>
     </section>
   </section>
 );
